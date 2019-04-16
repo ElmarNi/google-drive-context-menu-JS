@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="context-menu d-none">
+        <div class="head-wrapper">
+            <div class="head">
+                <i class="fas fa-folder-plus"></i>
+                <p>New Folder</p>
+            </div>
+        </div>
+        <div class="body">
+            <div class="up-files">
+                <i class="fas fa-file-upload"></i>
+                <p>Upload Files</p>
+            </div>
+            <div class="up-folders">
+                <i class="fas fa-folder-open"></i>
+                <p>Uploads Folder</p>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="docs">
+                <i class="fas fa-book"></i>
+                <p>Google Docs</p>
+                <i class="fas fa-chevron-right ml-2"></i>
+            </div>
+            <div class="sheets">
+                <i class="fas fa-table"></i>
+                <p>Google Sheets</p>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="slides">
+                <i class="fas fa-file-powerpoint"></i>
+                <p>Google Slides</p>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="more">
+                <p>More</p>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-for-CreateFolderDiv d-none">
+        <div class="create-folder-info">
+            <h4>New Folder</h4>
+            <input type="text" value="Untitled folder">
+            <div class="buttons text-right">
+                <button class="cancel">CANCEL</button>
+                <button class="create">CREATE</button>
+            </div>
+        </div>
+    </div>
+    <div class="parent-for-new-folders"></div>
+    <script src="lib/main.js"></script>
+</body>
+
+</html>
